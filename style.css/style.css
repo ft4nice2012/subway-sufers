@@ -1,0 +1,24 @@
+ ul id = decorate::before{
+    ::content: read-write ;
+ }
+
+ ul li{
+    color: blue;
+ }
+ 
+  p::first-letter{
+    font-size: 50px;
+    color: teal;
+  }  
+
+  p{
+    color: blueviolet;
+  }
+
+  
+
+
+h1+p{
+    color: red;
+}
+
